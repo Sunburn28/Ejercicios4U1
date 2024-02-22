@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +34,8 @@ namespace Ejercicios4
         private void button1_Click(object sender, EventArgs e) // Temperatura aceptable
         {
             logica.AjustarTemperatura(true);
+            MessageBox.Show("Gracias por usar el programa");
+            Close();
         }
 
         private void button2_Click(object sender, EventArgs e) // Temperatura no aceptable
